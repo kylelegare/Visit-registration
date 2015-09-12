@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=320">
+<title>Browser Camera Demo</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<body>  
+    <header>
+        Visior Sign In
+    </header>
+       <div class="container">
+    <h1>Visitor Sign-In</h1>
+    <p>Please fill out the following information before entering</p>
+    <form role="form">
+        <div class="row">
+            <div class="form-group col-lg-3">
+                <label for="code">First Name</label>
+                <input type="text" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-lg-3 ">
+                <label for="code">Last Name</label>
+                <input type="text" class="form-control input-normal" />
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-group col-lg-3">
+                <label for="code">E-mail</label>
+                <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-lg-3">
+                <label for="code">Who Are You Here To See</label>
+                <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-lg-3">
+                <label for="code">Notes</label>
+               <textarea class="form-control" rows="3"></textarea>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+    <div id="content"></div>
+    <form>
+        <!-- prompt the user, Camera or Gallery -->
+        <input type="file" accept="image/*" />  
+        
+        <!-- open the camera immediately    
+        <input type="file" accept="image/*;capture=camera" />
+        -->                                 
+    </form>
+ 	<footer>
+	<a href="https://github.com/don/html-cam">Source Code</a>
+	</footer>
+    <script src="script.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1093669-11']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</body>
+</html>
