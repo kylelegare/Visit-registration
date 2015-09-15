@@ -1,0 +1,43 @@
+body {
+	background-color: #1d9d74;
+}
+
+.profile {
+	background-image: url(http://i.imgur.com/0DhzpDx.jpg);
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	border: solid 7px white;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+.tagline-text {
+	color: white;
+}
+
+.social-icons {
+	color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff7f3f;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
