@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kyle Legare</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+   <div class="container">
+<div class="profile">
+
+</div>
+    <div class="tagline-text">
+   		 <h1> Kyle Legare </h1>
+   		 <h4> Enterprise Development for Hootsuite Media </h4>
+    </div>
+        <div class="social-icons">
+        	<a href="https://ca.linkedin.com/in/kylelegare">
+            <i class="fa fa-linkedin-square fa-5x"></i>
+           </a>
+           <a href="https://www.facebook.com/kyle.legare">
+            <i class="fa fa-facebook-square fa-5x"></i>
+           </a>
+           <a href="https://instagram.com/kylelegare/">
+            <i class="fa fa-instagram fa-5x"></i>
+           </a>
+           <a href="https://twitter.com/kyleohoots">
+            <i class="fa fa-twitter-square fa-5x"></i>
+       		</a>
+        </div>
+        </div>
+
+
+</body>
+</html>
